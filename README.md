@@ -7,21 +7,21 @@ Anggota:
 
 **Soal Pratikum Modul 1 Jaringan Komputer 2021:**
 
-* [Soal 1](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-1)
-* [Soal 2](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-2)
-* [Soal 3](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-3)
-* [Soal 4](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-4)
-* [Soal 5](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-5)
-* [Soal 6](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-6)
-* [Soal 7](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-7)
-* [Soal 8](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-8)
-* [Soal 9](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-9)
-* [Soal 10](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-10)
-* [Soal 11](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-11)
-* [Soal 12](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-12)
-* [Soal 13](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-13)
-* [Soal 14](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-14)
-* [Soal 15](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021#Soal-15)
+* [Soal 1](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-1)
+* [Soal 2](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-2)
+* [Soal 3](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-3)
+* [Soal 4](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-4)
+* [Soal 5](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-5)
+* [Soal 6](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-6)
+* [Soal 7](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-7)
+* [Soal 8](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-8)
+* [Soal 9](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-9)
+* [Soal 10](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-10)
+* [Soal 11](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-11)
+* [Soal 12](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-12)
+* [Soal 13](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-13)
+* [Soal 14](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-14)
+* [Soal 15](https://github.com/ThomasFel/Jarkom-Modul-1-A08-2021##Soal-15)
 
 ## Soal 1
 
@@ -49,13 +49,53 @@ Maka akan muncul website-website yang menggunakan metode **basic authentication*
 
 ### Ikuti perintah di [](http://aku.pengen.pw/) [basic.ichimarumaru.tech](http://basic.ichimarumaru.tech/)! Username dan password bisa didapatkan dari file .pcapng!
 
+Mengisi display filter dengan ‘**http.host contains basic.ichimarumaru.tech**’.
+
+![](https://lh4.googleusercontent.com/rGgVSXrZHhuLuFiZHfEbmYIx1n0RLoLxShk9EiWqdITKXbxjsQZYFeqCpW7ys_gV2QNgRSYPZgnPpp43uSVjYeJleKhFVdj0LospyS3kKlfKNPtJ-m3gsldFsyN3ciFzzQ=s0)
+
+Lalu kita bisa melihat username dan password dari website dengan membuka **paket 568** (paket kedua), masuk ke Hypertext Transfer Protocol, Get, lalu ke Credentials. Didapat:
+
+-   **Username  : kuncimenujulautan**
+-   **Password  : tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN**
+
+![](https://lh4.googleusercontent.com/Y84UK9tFa0hvecoYQZEDH5HX427pt5hwdiOVXI8_8kBnHduqmetczRisF2_mPFx72tamfGL7N-RHuyCU1BeR4kJtYrsMXzTva4bOyYb_kMnji9t7pzsKKiCzplOYN9cf9w=s0)
+
+Kembali ke browser, lalu menuju **[](http://aku.pengen.pw/) [basic.ichimarumaru.tech](http://basic.ichimarumaru.tech/)**. Masukkan username dan password-nya. Akan muncul laman seperti di bawah.
+
+![](https://lh3.googleusercontent.com/EKBv_HtMx1dFpu6h9Ajrfn3PQ1epQ1RCWz7gmg42M3nPS6t2g1km5i4rdDHJgtSGdKp7lzHoZcPbVt_CjYspD8_T5vj5lWModRQZ_naDIBdCKS0DSXuWLTUXwACah8QeJA=s0)
+
+Jawab soal yang ada di laman tersebut. Jawabannya adalah ‘**putih-hijau, hijau, putih-oranye, biru, putih-biru, oranye, putih-cokelat, cokelat**’.
+
 ## Soal 4
 
 ### Temukan paket mysql yang mengandung perintah  query select!
 
+Mengisi display filter dengan ‘**mysql.query contains select**’.
+
+![](https://lh6.googleusercontent.com/mJ9cXK042mHRbkCYc97W21GWx9kgq_M8dELRoX_-azvLJGk8jimax_LE0agsSRe1jgPXn_mGtZgIE3WhfNnRajikAgdnOX5ttX9MUsZYBM-GaC4dHRkFcC8p8CKOCN3oAg=s0)
+
+Akan muncul paket yang mengandung perintah query **select**.
+
 ## Soal 5
 
 ### Login ke [portal.ichimarumaru.tech](http://portal.ichimarumaru.tech/) kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+
+Mengisi display filter dengan ‘**mysql.query**’.
+
+![](https://lh6.googleusercontent.com/OUZQHFF8yW3XoIHLIZonNy6-Rgfx5nfeXqJZtR9d2PWuI6-ocltKrb2CvZjSw5H65jBiusAJ8ptXHYOZ79Yl8gUYdGw-TT_6_R0O0WLgmrQbYmi34qHsukwSwOF5gLLHVw=s0)
+
+Akan muncul query **insert** yang berisi:
+-   **Username  : akakanomi**
+-   **Password  : pemisah4lautan**
+Masukkan username dan password-nya.
+
+![](https://lh3.googleusercontent.com/BY1KfJ-9w2iP5NJIU_YZeQa-GpBr-tAONAp6t5NJlStIwNkVSkHhbPygJb66HOJHszKTK4RKASBQQMhLgGiAsnfzVnGtTjw50_OmxtvwqseLm6vVHCZXrJvHXr-kaVOa4g=s0)
+
+Kemudian, akan muncul laman seperti ini dan bisa dijawab soal yang ada.
+
+![](https://lh6.googleusercontent.com/VxGSC6flwkSqtHySF7hYh41M9vcI5F2I-ySUuelK8zzJEemW9Feqp8DKNasRPFKzFUyBk1V3-KmcTb1D2RC7JtBWTjggfcw4iV6F7AiyZHOq_ysQwpJjLGQOV0Cq2Qg0_g=s0)
+
+Jawabannya adalah ‘**putih-oranye, oranye, putih-hijau, biru, putih-biru, hijau, putih-cokelat, cokelat**’.
 
 ## Soal 6
 
