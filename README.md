@@ -194,7 +194,7 @@ Follow TCP Stream. Kemudian akan muncul seperti ini. Dari sini kita bisa lihat b
 
 <img src="https://lh6.googleusercontent.com/z_ZfeWbfNrsr8ZnCeNlWJAGf0_19zrOFA_MoTjMkN6oSRTdjadfuRDPrenTk3h6S5cevx_ODVnJZd3i1at-bEQ3-KUHaH2awSSmW76qf2LWBVlFzaw0DC3M7ENTH82VW3rV64M9I=s0" width="850">
 
-Mengisi display filter lagi dengan '**ftp.data.command contains "bukanapapa.txt"**'.
+Mengisi *display filter* lagi dengan ``ftp.data.command contains "bukanapapa.txt"``.
 
 <img src="https://lh3.googleusercontent.com/mby2n-lTKePIw_H2UwAH87wJautayHMZxql3SmlsNUvgqf0KKNiiLaQGZlDGxRirZ0olaOk8mquT1WLMQrrMMBAtha7bHjDTXzCZ0VbVADtM4DA9Dib0ngzaujVvfo7EF3iM0MRF=s0" width="850">
 
@@ -222,13 +222,17 @@ Hasil ketika mengambil paket dari **port 80**.
 
 ### Jawaban:
 
-Mengisi *capture filter* dengan ``port 21``.
+Mengisi *capture filter* dengan ``port 21``. Berbeda dengan biasanya yang memakai **Wi-Fi**, di sini menggunakan **Adapter for Loopback Traffic Capture**.
 
-<img src="https://lh3.googleusercontent.com/_B3NMd98Xb0q0EyYNzPJgsLBgUYR2nOSTkAFVJKAHmVjFkKDTGq29q4zVIgnafoye20KZocgFzlD98RKnn9WDA8Y4UKNzuW37lzw2xIHPkkynNFSqpKtD6nUpUVxUJZtsM4N-jaA=s0" width="850">
+<img src="https://lh5.googleusercontent.com/rWxCzE9mQGlpN5TiUVnZIU9P7PrjdDcbHkWQTbrh-LvCCPDL63yVxgEiwinkj3AGKgCfFobBe4tfNxUECapz-UuPgmPJ3w6DHq0fKRl_yvtWwyGl1yZO55t14_bYF-G-njZJN1Xi=s0" width="850">
 
-Hasil ketika mencari paket mengandung **port 21**. Di sini tidak ada yang dimunculkan.
+Hasil ketika mencari paket mengandung **port 21**. Di sini tidak ada yang dimunculkan karena harus menggunakan FTP. Bisa memakai **FileZilla** untuk mengujicoba.
 
-<img src="https://lh4.googleusercontent.com/kXfuiuxiPIjUb-dCI7GLL7hCpg3yAqjvNTiNoNpNr9k5ud04E-6gIzu7eF1yMvTdWC3TJk5f-6mKqBdoaxJdJ-RItsqGndI_GePqZ4vqIbDsKFRqHvrKbIzyaOPxNE4a-jVpAMtM=s0" width="850">
+<img src="https://lh6.googleusercontent.com/WfqFbOnjOte6up10ekWVGvTuF9dUidwo_cvPKDp83ojjyxfwUkv7tgEscEeUgtSiCCLD0UEC7qHhPAKBLztP-JqRTEvi7W420ZhUDxAEVRJmmsycdVBNDdYYeR9AZJcw82f6VSRw=s0" width="850">
+
+Buka **XAMPP** dan *connect*-kan **FileZilla**. Kemudian akan muncul seperti ini.
+
+<img src="https://lh3.googleusercontent.com/xFSU9AkQvtSfGx6Musdob_1DOHeehlj0OXfTWLSFoX8KsRaCn0YwPOYjDb7uJy0q3a0RxtX6jvRRY__MVpNlXSadPvW2r8o1XJyUY9L1MWCecRQROvpwDMawrtCaD7rQr6N1cmch=s0" width="850">
 
 ## Soal 13
 
@@ -250,13 +254,13 @@ Hasil ketika menampilkan paket menuju **port 443**.
 
 ### Jawaban:
 
-Mengisi *capture filter* dengan ``host kemenag.go.id``.
+Mengisi *capture filter* dengan ``dst host kemenag.go.id``.
 
-<img src="https://lh6.googleusercontent.com/lSGu79rxmJmCkh2ZDi9zaZm2lljEb6DVzwrvX8ei-Qpfs_TAPsGOR9iZgK4dbQ88m8SZi5-ziJ6bLHqieAjCBq98Wc4YcWKOr0ldMux9yFAxXbRFja6Vp66t88liySsTaxP8hCrF=s0" width="850">
+<img src="https://lh4.googleusercontent.com/k4APuQNkHtmYRxgqSwNu2glW8OS62llecp49r2Q4g1il9gyddWX1MDGpZXnDhraMUYhVLcpfmYS7wiIutc_3PIdSRqwkCW-eyHiKtwckONGr6VLRyqmE-F2-v_6HWVovj22k1mP-=s0" width="850">
     
 Hasil ketika menampilkan paket yang tujuannya **kemenag.go.id**.
 
-<img src="https://lh4.googleusercontent.com/nmEjUtEZCmitx3SoDCuG98CzjQ3xLGySIfwLXcNk1yJ6aFBEfS_yRO05BfkhENMPu6kx8ePZylpENOLhAsicQU_OqvEb2mtpPfVVhQqwEX8l3aTmYJ8ypppCI0dA7Fh7HUUboih-=s0" width="850">
+<img src="https://lh5.googleusercontent.com/hDlI7dVA8OgWTAhLg18px3G137_NRwj1zsi704z5lDZW-YvZPCTLwYL8OJEWsAXZRHyaS18DIcdOmRYAWUGqbBZLeexEwFp00nwOkv_EMrsJ5-W3dedZ-nqS3nfCVoHIauMrPztf=s0" width="850">
 
 ## Soal 15
 
@@ -267,3 +271,7 @@ Hasil ketika menampilkan paket yang tujuannya **kemenag.go.id**.
 Cari IP Address masing-masing lewat *command prompt*. Kemudian, mengisi *display filter* dengan ``ip.src == [ip masing-masing]``.
 
 <img src="https://lh4.googleusercontent.com/44Ifx3KwaoGBaYBstA8YGHlFp2-txT3oVzqep9FoaIlTDejCU1LFgJistk4TVWW6YYnx_7X4-DJmhWUGvabPh04YHBUR_Y0BxfNz5BUfHHUxtMqMji6NI9jWp1CezvLDfssaz54y=s0" width="850">
+
+## Kendala
+- Jaringan agak lemot sewaktu men-*download file* praktikum.
+- Masih agak bingung penggunaan *command* dari Wireshark.
