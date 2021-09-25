@@ -126,9 +126,9 @@ Akan muncul daftar *username* dan *password* yang *login* ke FTP Server.
 
 ## Soal 7
 
-### Jawaban:
-
 ### Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
+
+### Jawaban:
 
 Mengisi *display filter* dengan ``ftp-data and frame contains "Real.pdf"``.
 
