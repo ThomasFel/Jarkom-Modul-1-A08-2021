@@ -27,7 +27,9 @@ Anggota:
 
 ### Sebutkan webserver yang digunakan pada "[ichimarumaru.tech](http://ichimarumaru.tech/)"!
 
-Mengisi *display filter* dengan "**http.host contains ichimarumaru.tech**".
+### Jawaban:
+
+Mengisi *display filter* dengan ``http.host contains ichimarumaru.tech``.
 
 <img src="https://lh4.googleusercontent.com/5S9fx9eWhHtdtnJ5qRXSaH3HlX9Y1Kh_6fTL5_J2xFHL1xWq0ljwIRd6TQxR_dQFK6apHmhUMsMbvvRT7pvpe82TbHIfr1WmFbTt58zJFEQji_WySjiVhQDPQkn3rDFoQQ=s0" width=850>
 
@@ -43,7 +45,9 @@ Kemudian bisa dilihat server yang dipakai adalah **nginx/1.18.0 (Ubuntu)**.
 
 ### Temukan paket dari web-web yang menggunakan basic authentication method!
 
-Mengisi *display filter* dengan "**http.authbasic**".
+### Jawaban:
+
+Mengisi *display filter* dengan ``http.authbasic``.
 
 <img src="https://lh3.googleusercontent.com/VcjnbkERzFKHO0KVSw6P9DCflWOWcDTfRuHCC_FxYJHKeHzBS5OvHOFJVawBQgbW0DHVOk9g6vq0GaS_lPAP5-MTtUfP8Lfqr28UAZoUkHC6uM6zvz6Wx_nbA6YcPkXU5Q=s0" width="850">
 
@@ -53,7 +57,9 @@ Maka akan muncul website-website yang menggunakan metode **basic authentication*
 
 ### Ikuti perintah di [](http://aku.pengen.pw/) [basic.ichimarumaru.tech](http://basic.ichimarumaru.tech/)! Username dan password bisa didapatkan dari file .pcapng!
 
-Mengisi *display filter* dengan "**http.host contains basic.ichimarumaru.tech**".
+### Jawaban:
+
+Mengisi *display filter* dengan ``http.host contains basic.ichimarumaru.tech``.
 
 <img src="https://lh4.googleusercontent.com/rGgVSXrZHhuLuFiZHfEbmYIx1n0RLoLxShk9EiWqdITKXbxjsQZYFeqCpW7ys_gV2QNgRSYPZgnPpp43uSVjYeJleKhFVdj0LospyS3kKlfKNPtJ-m3gsldFsyN3ciFzzQ=s0" width="850">
 
@@ -74,7 +80,9 @@ Jawab soal yang ada di laman tersebut. Jawabannya adalah '**putih-hijau, hijau, 
 
 ### Temukan paket mysql yang mengandung perintah query select!
 
-Mengisi *display filter* dengan "**mysql.query contains select**".
+### Jawaban:
+
+Mengisi *display filter* dengan ``mysql.query contains select``.
 
 <img src="https://lh6.googleusercontent.com/mJ9cXK042mHRbkCYc97W21GWx9kgq_M8dELRoX_-azvLJGk8jimax_LE0agsSRe1jgPXn_mGtZgIE3WhfNnRajikAgdnOX5ttX9MUsZYBM-GaC4dHRkFcC8p8CKOCN3oAg=s0" width="850">
 
@@ -84,7 +92,9 @@ Akan muncul paket yang mengandung perintah *query* **select**.
 
 ### Login ke [portal.ichimarumaru.tech](http://portal.ichimarumaru.tech/) kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 
-Mengisi *display filter* dengan "**mysql.query**".
+### Jawaban:
+
+Mengisi *display filter* dengan ``mysql.query``.
 
 <img src="https://lh6.googleusercontent.com/OUZQHFF8yW3XoIHLIZonNy6-Rgfx5nfeXqJZtR9d2PWuI6-ocltKrb2CvZjSw5H65jBiusAJ8ptXHYOZ79Yl8gUYdGw-TT_6_R0O0WLgmrQbYmi34qHsukwSwOF5gLLHVw=s0" width="850">
 
@@ -106,7 +116,9 @@ Jawabannya adalah '**putih-oranye, oranye, putih-hijau, biru, putih-biru, hijau,
 
 ### Cari username dan password ketika melakukan login ke FTP Server!
 
-Mengisi *display filter* dengan "**ftp.request.command == USER || ftp.request.command == PASS**".
+### Jawaban:
+
+Mengisi *display filter* dengan ``ftp.request.command == USER || ftp.request.command == PASS``.
 
 <img src="https://lh3.googleusercontent.com/02edDq4m9ktG5-mNdS2rzxO4VkOiVTvV9ZeW0tuYDEpax2uw_68yM829IlrbIZBiN8HbRAgdkSsVGRp_SdKo0P5KUCGixedso2cmPjvBLztpjCt-4jKVbcgJKLg6FFgBicJIhxE3=s0" width="850">
 
@@ -114,9 +126,11 @@ Akan muncul daftar *username* dan *password* yang *login* ke FTP Server.
 
 ## Soal 7
 
+### Jawaban:
+
 ### Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 
-Mengisi *display filter* dengan '**ftp-data and frame contains "Real.pdf"**'
+Mengisi *display filter* dengan ``ftp-data and frame contains "Real.pdf"``.
 
 <img src="https://lh4.googleusercontent.com/Fa8fNtZjC_dnxN4bX5EHlbfP0w0Wrf_ZXuTngEOgCUIrHXgRG-fP_s85srcIENJIwpSD8OMibS57UEBjQs9CieFY8iGJYwu6kvMREjQvl9Kqv-3g3gE6FgXD9d020NqsbbAi9RQL=s0" width="850">
 
@@ -138,7 +152,9 @@ Hasilnya akan muncul seperti ini.
 
 ### Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 
-Mengisi *display filter* dengan '**ftp-data.command == RETR**'.
+### Jawaban:
+
+Mengisi *display filter* dengan ``ftp-data.command == RETR``.
 
 <img src="https://lh4.googleusercontent.com/Hkrj3uKhrvRjycbnDD2qzP7tNtkzkz6w_vhvPiVUY3Vz-ZwRLKXxDmnMjq6wJje_wNPoOitxSlLWWpFZjta62FW1rwgq83PHYr7UCQzD4dCB-K0OEGe1GxvRZME8eQCQpcXJK9Dv=s0" width="850">
 
@@ -148,7 +164,9 @@ Seharusnya muncul daftar paket untuk pengambilan file dari FTP. Tapi di sini kar
 
 ### Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 
-Mengisi *display filter* dengan '**ftp-data and ftp.data.command contains "secret.zip"**'.
+### Jawaban:
+
+Mengisi *display filter* dengan ``ftp-data and ftp-data.command contains "secret.zip"``.
 
 <img src="https://lh4.googleusercontent.com/jfo-7woJz6asoahOn9YJ2IV-jQjJy-HmkwwE1jKOQ3CCiswwCr-dGoNeM1vkT5-SjQyi_hFf6LDM6GVvv-O1KWmUPd6LorL6aD1TrVc23nwE7L2GRHqHogMDD7EpP4Ep6IK6tXXb=s0" width="850">
 
@@ -166,7 +184,9 @@ Beginilah isi **.pdf** jika sudah mendapatkan *password zip*.
 
 ### Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 
-Mengisi *display filter* dengan '**ftp.data.command contains "history.txt"**'.
+### Jawaban:
+
+Mengisi *display filter* dengan ``ftp-data.command contains "history.txt"``.
 
 <img src="https://lh3.googleusercontent.com/gkEST3pgsVJwmP1qevhnmCP9VNDjOzjfrMfant13rXrVr8AoclBwf-f3-7hui6QEThJ3AYnuA5XORNG15fZ4oLE4hjDTZfGd1dmSZXKbGW-1yNw9ow-yprVOmHH7uHyuVpoeQlSP=s0" width="850">
 
@@ -186,7 +206,9 @@ Follow TCP Stream. Kemudian akan muncul seperti ini. Dari sini kita bisa lihat b
 
 ### Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
-Mengisi *capture filter* dengan ‘src port 80’
+### Jawaban:
+
+Mengisi *capture filter* dengan ``src port 80``.
 
 <img src="https://lh5.googleusercontent.com/hUOrSzoUN9blEmv2pfzeUwjaPyzfZZPVs6zJA6W-aMCZXklpL7IbfEujE3LEfis_UWUog9yMlTfjYV3usPVhmdW48iuqABtjvQWndoulY16fjTeVLS-Y5D1GWKjYvNNLAKYD33PG=s0" width="850">
 
@@ -198,7 +220,9 @@ Hasil ketika mengambil paket dari **port 80**.
 
 ### Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
-Mengisi *capture filter* dengan '**port 21**'.
+### Jawaban:
+
+Mengisi *capture filter* dengan ``port 21``.
 
 <img src="https://lh3.googleusercontent.com/_B3NMd98Xb0q0EyYNzPJgsLBgUYR2nOSTkAFVJKAHmVjFkKDTGq29q4zVIgnafoye20KZocgFzlD98RKnn9WDA8Y4UKNzuW37lzw2xIHPkkynNFSqpKtD6nUpUVxUJZtsM4N-jaA=s0" width="850">
 
@@ -210,7 +234,9 @@ Hasil ketika mencari paket mengandung **port 21**. Di sini tidak ada yang dimunc
 
 ### Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
-Mengisi *capture filter* dengan '**dst port 443**'.
+### Jawaban:
+
+Mengisi *capture filter* dengan ``dst port 443``.
 
 <img src="https://lh5.googleusercontent.com/FN2ajb6ZiP1LU3gW3_9ulJ5COR8LHq825CDqwd8REXk5znIsbGXbMFn_36KA7J90J3K27cC5V3U-B2luxkFCkTmmEdcZx6ImBSUvuJATg_CPRiYYnMYU_B6_pGf2VhI2fpAjLkmO=s0" width="850">
 
@@ -222,7 +248,9 @@ Hasil ketika menampilkan paket menuju **port 443**.
 
 ### Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
-Mengisi *capture filter* dengan "**host kemenag.go.id**"
+### Jawaban:
+
+Mengisi *capture filter* dengan ``host kemenag.go.id``.
 
 <img src="https://lh6.googleusercontent.com/lSGu79rxmJmCkh2ZDi9zaZm2lljEb6DVzwrvX8ei-Qpfs_TAPsGOR9iZgK4dbQ88m8SZi5-ziJ6bLHqieAjCBq98Wc4YcWKOr0ldMux9yFAxXbRFja6Vp66t88liySsTaxP8hCrF=s0" width="850">
     
@@ -234,6 +262,8 @@ Hasil ketika menampilkan paket yang tujuannya **kemenag.go.id**.
 
 ### Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
-Cari IP Address masing-masing lewat *command prompt*. Kemudian, mengisi *display filter* dengan '**ip.src == [ip masing-masing]**'.
+### Jawaban:
+
+Cari IP Address masing-masing lewat *command prompt*. Kemudian, mengisi *display filter* dengan ``ip.src == [ip masing-masing]``.
 
 <img src="https://lh4.googleusercontent.com/44Ifx3KwaoGBaYBstA8YGHlFp2-txT3oVzqep9FoaIlTDejCU1LFgJistk4TVWW6YYnx_7X4-DJmhWUGvabPh04YHBUR_Y0BxfNz5BUfHHUxtMqMji6NI9jWp1CezvLDfssaz54y=s0" width="850">
