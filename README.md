@@ -120,19 +120,41 @@ Jawabannya adalah ‘**putih-oranye, oranye, putih-hijau, biru, putih-biru, hija
 ## Soal 11
 
 ### Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+Mengisi capture filter dengan ‘src port 80’
+![](https://lh5.googleusercontent.com/hUOrSzoUN9blEmv2pfzeUwjaPyzfZZPVs6zJA6W-aMCZXklpL7IbfEujE3LEfis_UWUog9yMlTfjYV3usPVhmdW48iuqABtjvQWndoulY16fjTeVLS-Y5D1GWKjYvNNLAKYD33PG=s0)
+
+Hasil ketika mengambil paket dari port 80
+![](https://lh3.googleusercontent.com/vaEO3aXkNU6SET8YBNRM2vvlIpJhu-wpj4sO9x6hKn_ZzZyKM7Ird-gnH8xm_Lni__S4XsawyJLJ7LGxuvnytFEyHaYT3DXDhJyZqsAl932mwccqelQRsUCmmWEdVwGiY892nrOR=s0)
 
 ## Soal 12
 
 ### Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+Mengisi capture filter dengan ‘port 21'
+![](https://lh3.googleusercontent.com/_B3NMd98Xb0q0EyYNzPJgsLBgUYR2nOSTkAFVJKAHmVjFkKDTGq29q4zVIgnafoye20KZocgFzlD98RKnn9WDA8Y4UKNzuW37lzw2xIHPkkynNFSqpKtD6nUpUVxUJZtsM4N-jaA=s0)
+
+Hasil ketika paket mengandung port 21. Di sini tidak ada yang dimunculkan
+![](https://lh4.googleusercontent.com/kXfuiuxiPIjUb-dCI7GLL7hCpg3yAqjvNTiNoNpNr9k5ud04E-6gIzu7eF1yMvTdWC3TJk5f-6mKqBdoaxJdJ-RItsqGndI_GePqZ4vqIbDsKFRqHvrKbIzyaOPxNE4a-jVpAMtM=s0)
 
 ## Soal 13
 
 ### Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+Mengisi capture filter dengan ‘dst port 443’
+![](https://lh5.googleusercontent.com/FN2ajb6ZiP1LU3gW3_9ulJ5COR8LHq825CDqwd8REXk5znIsbGXbMFn_36KA7J90J3K27cC5V3U-B2luxkFCkTmmEdcZx6ImBSUvuJATg_CPRiYYnMYU_B6_pGf2VhI2fpAjLkmO=s0)
+
+Hasil ketika menampilkan paket menuju port 443
+![](https://lh3.googleusercontent.com/i4wjZgzO1cbuZMS6_pvCVohkV7UmoLpMtJ-FFjdHkYdM1MQHJ1AXyeuEHhQ96cn9lTjT0X1GdomJsSupzytgh5ks0sgF2Q2N1pjrIJt9e9R_U1SOXg0gCXVYLLhrPaP40d60afTb=s0)
 
 ## Soal 14
 
 ### Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+Mengisi capture filter dengan ‘host kemenag.go.id’
+![](https://lh6.googleusercontent.com/lSGu79rxmJmCkh2ZDi9zaZm2lljEb6DVzwrvX8ei-Qpfs_TAPsGOR9iZgK4dbQ88m8SZi5-ziJ6bLHqieAjCBq98Wc4YcWKOr0ldMux9yFAxXbRFja6Vp66t88liySsTaxP8hCrF=s0)
+    
+Hasil ketika menampilkan paket yang tujuannya kemenag.go.id
+![](https://lh4.googleusercontent.com/nmEjUtEZCmitx3SoDCuG98CzjQ3xLGySIfwLXcNk1yJ6aFBEfS_yRO05BfkhENMPu6kx8ePZylpENOLhAsicQU_OqvEb2mtpPfVVhQqwEX8l3aTmYJ8ypppCI0dA7Fh7HUUboih-=s0)
 
 ## Soal 15
 
 ### Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+Mengisi display filter dengan ‘ip.src == [ip masing-masing]’
+![](https://lh4.googleusercontent.com/44Ifx3KwaoGBaYBstA8YGHlFp2-txT3oVzqep9FoaIlTDejCU1LFgJistk4TVWW6YYnx_7X4-DJmhWUGvabPh04YHBUR_Y0BxfNz5BUfHHUxtMqMji6NI9jWp1CezvLDfssaz54y=s0)
