@@ -29,22 +29,23 @@ Anggota:
 
 Mengisi *display filter* dengan "**http.host contains ichimarumaru.tech**".
 
-![](https://lh4.googleusercontent.com/5S9fx9eWhHtdtnJ5qRXSaH3HlX9Y1Kh_6fTL5_J2xFHL1xWq0ljwIRd6TQxR_dQFK6apHmhUMsMbvvRT7pvpe82TbHIfr1WmFbTt58zJFEQji_WySjiVhQDPQkn3rDFoQQ=s0)
+<img src="https://lh4.googleusercontent.com/5S9fx9eWhHtdtnJ5qRXSaH3HlX9Y1Kh_6fTL5_J2xFHL1xWq0ljwIRd6TQxR_dQFK6apHmhUMsMbvvRT7pvpe82TbHIfr1WmFbTt58zJFEQji_WySjiVhQDPQkn3rDFoQQ=s0" width=850>
 
 Follow TCP Stream.
 
-![](https://lh5.googleusercontent.com/mmMB4X8I24Ggsqie-ZkWEuZj1mVuV3r1VwZ1dRi7AjnN85QPfMrw5XeOenEnJWw9BoJ7Th-paOr7PitcQfdwEre45gVMe1DmN0H9wwqmU-VVP3_Koc21NX8BcqIVBH4x6g=s0)
+<img src="https://lh5.googleusercontent.com/mmMB4X8I24Ggsqie-ZkWEuZj1mVuV3r1VwZ1dRi7AjnN85QPfMrw5XeOenEnJWw9BoJ7Th-paOr7PitcQfdwEre45gVMe1DmN0H9wwqmU-VVP3_Koc21NX8BcqIVBH4x6g=s0" width=850>
 
 Kemudian bisa dilihat server yang dipakai adalah **nginx/1.18.0 (Ubuntu)**.
 
-![](https://lh5.googleusercontent.com/3ZRdVaGcsWFdgdQcZ-OslxAxhGLeszLz-jPFkwN00yV_M8eDtTTof1E5S3Jsit_t8h4kc0_-Z5nOdA5PQbyaOQxu7BoZUZm1Ac9wEX8jnm8iTWO8JSiQLCXCXYqiDgi0rQ=s0)
+<img src="https://lh5.googleusercontent.com/3ZRdVaGcsWFdgdQcZ-OslxAxhGLeszLz-jPFkwN00yV_M8eDtTTof1E5S3Jsit_t8h4kc0_-Z5nOdA5PQbyaOQxu7BoZUZm1Ac9wEX8jnm8iTWO8JSiQLCXCXYqiDgi0rQ=s0" width=850>
 
 ## Soal 2
 
 ### Temukan paket dari web-web yang menggunakan basic authentication method!
 
-Mengisi display filter dengan "**http.authbasic**".
-![](https://lh3.googleusercontent.com/VcjnbkERzFKHO0KVSw6P9DCflWOWcDTfRuHCC_FxYJHKeHzBS5OvHOFJVawBQgbW0DHVOk9g6vq0GaS_lPAP5-MTtUfP8Lfqr28UAZoUkHC6uM6zvz6Wx_nbA6YcPkXU5Q=s0)
+Mengisi *display filter* dengan "**http.authbasic**".
+
+<img src="https://lh3.googleusercontent.com/VcjnbkERzFKHO0KVSw6P9DCflWOWcDTfRuHCC_FxYJHKeHzBS5OvHOFJVawBQgbW0DHVOk9g6vq0GaS_lPAP5-MTtUfP8Lfqr28UAZoUkHC6uM6zvz6Wx_nbA6YcPkXU5Q=s0" width="850">
 
 Maka akan muncul website-website yang menggunakan metode **basic authentication**.
 
@@ -52,32 +53,32 @@ Maka akan muncul website-website yang menggunakan metode **basic authentication*
 
 ### Ikuti perintah di [](http://aku.pengen.pw/) [basic.ichimarumaru.tech](http://basic.ichimarumaru.tech/)! Username dan password bisa didapatkan dari file .pcapng!
 
-Mengisi display filter dengan "**http.host contains basic.ichimarumaru.tech**".
+Mengisi *display filter* dengan "**http.host contains basic.ichimarumaru.tech**".
 
-![](https://lh4.googleusercontent.com/rGgVSXrZHhuLuFiZHfEbmYIx1n0RLoLxShk9EiWqdITKXbxjsQZYFeqCpW7ys_gV2QNgRSYPZgnPpp43uSVjYeJleKhFVdj0LospyS3kKlfKNPtJ-m3gsldFsyN3ciFzzQ=s0)
+<img src="https://lh4.googleusercontent.com/rGgVSXrZHhuLuFiZHfEbmYIx1n0RLoLxShk9EiWqdITKXbxjsQZYFeqCpW7ys_gV2QNgRSYPZgnPpp43uSVjYeJleKhFVdj0LospyS3kKlfKNPtJ-m3gsldFsyN3ciFzzQ=s0" width="850">
 
-Lalu kita bisa melihat username dan password dari website dengan membuka **paket 568** (paket kedua), masuk ke Hypertext Transfer Protocol, Get, lalu ke Credentials. Didapat:
+Lalu kita bisa melihat *username* dan *password* dari website dengan membuka **paket 568** (paket kedua), masuk ke **Hypertext Transfer Protocol**, **Get**, lalu ke **Credentials**. Didapat:
 
 -   **Username  : kuncimenujulautan**
 -   **Password  : tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN**
 
-![](https://lh4.googleusercontent.com/Y84UK9tFa0hvecoYQZEDH5HX427pt5hwdiOVXI8_8kBnHduqmetczRisF2_mPFx72tamfGL7N-RHuyCU1BeR4kJtYrsMXzTva4bOyYb_kMnji9t7pzsKKiCzplOYN9cf9w=s0)
+<img src="https://lh4.googleusercontent.com/Y84UK9tFa0hvecoYQZEDH5HX427pt5hwdiOVXI8_8kBnHduqmetczRisF2_mPFx72tamfGL7N-RHuyCU1BeR4kJtYrsMXzTva4bOyYb_kMnji9t7pzsKKiCzplOYN9cf9w=s0" width="850">
 
-Kembali ke browser, lalu menuju **[](http://aku.pengen.pw/) [basic.ichimarumaru.tech](http://basic.ichimarumaru.tech/)**. Masukkan username dan password-nya. Akan muncul laman seperti di bawah.
+Kembali ke browser, lalu menuju **[](http://aku.pengen.pw/) [basic.ichimarumaru.tech](http://basic.ichimarumaru.tech/)**. Masukkan *username* dan *password*-nya. Akan muncul laman seperti di bawah.
 
-![](https://lh3.googleusercontent.com/EKBv_HtMx1dFpu6h9Ajrfn3PQ1epQ1RCWz7gmg42M3nPS6t2g1km5i4rdDHJgtSGdKp7lzHoZcPbVt_CjYspD8_T5vj5lWModRQZ_naDIBdCKS0DSXuWLTUXwACah8QeJA=s0)
+<img src="https://lh3.googleusercontent.com/EKBv_HtMx1dFpu6h9Ajrfn3PQ1epQ1RCWz7gmg42M3nPS6t2g1km5i4rdDHJgtSGdKp7lzHoZcPbVt_CjYspD8_T5vj5lWModRQZ_naDIBdCKS0DSXuWLTUXwACah8QeJA=s0" width="850">
 
-Jawab soal yang ada di laman tersebut. Jawabannya adalah ‘**putih-hijau, hijau, putih-oranye, biru, putih-biru, oranye, putih-cokelat, cokelat**’.
+Jawab soal yang ada di laman tersebut. Jawabannya adalah '**putih-hijau, hijau, putih-oranye, biru, putih-biru, oranye, putih-cokelat, cokelat**'.
 
 ## Soal 4
 
-### Temukan paket mysql yang mengandung perintah  query select!
+### Temukan paket mysql yang mengandung perintah query select!
 
-Mengisi display filter dengan "**mysql.query contains select**".
+Mengisi *display filter* dengan "**mysql.query contains select**".
 
-![](https://lh6.googleusercontent.com/mJ9cXK042mHRbkCYc97W21GWx9kgq_M8dELRoX_-azvLJGk8jimax_LE0agsSRe1jgPXn_mGtZgIE3WhfNnRajikAgdnOX5ttX9MUsZYBM-GaC4dHRkFcC8p8CKOCN3oAg=s0)
+<img src="https://lh6.googleusercontent.com/mJ9cXK042mHRbkCYc97W21GWx9kgq_M8dELRoX_-azvLJGk8jimax_LE0agsSRe1jgPXn_mGtZgIE3WhfNnRajikAgdnOX5ttX9MUsZYBM-GaC4dHRkFcC8p8CKOCN3oAg=s0" width="850">
 
-Akan muncul paket yang mengandung perintah query **select**.
+Akan muncul paket yang mengandung perintah *query* **select**.
 
 ## Soal 5
 
@@ -85,21 +86,21 @@ Akan muncul paket yang mengandung perintah query **select**.
 
 Mengisi *display filter* dengan "**mysql.query**".
 
-![](https://lh6.googleusercontent.com/OUZQHFF8yW3XoIHLIZonNy6-Rgfx5nfeXqJZtR9d2PWuI6-ocltKrb2CvZjSw5H65jBiusAJ8ptXHYOZ79Yl8gUYdGw-TT_6_R0O0WLgmrQbYmi34qHsukwSwOF5gLLHVw=s0)
+<img src="https://lh6.googleusercontent.com/OUZQHFF8yW3XoIHLIZonNy6-Rgfx5nfeXqJZtR9d2PWuI6-ocltKrb2CvZjSw5H65jBiusAJ8ptXHYOZ79Yl8gUYdGw-TT_6_R0O0WLgmrQbYmi34qHsukwSwOF5gLLHVw=s0" width="850">
 
-Akan muncul query **insert** yang berisi:
+Akan muncul *query* **insert** yang berisi:
 -   **Username  : akakanomi**
 -   **Password  : pemisah4lautan**
 
-Masukkan username dan password-nya.
+Masukkan *username* dan *password*-nya.
 
-![](https://lh3.googleusercontent.com/BY1KfJ-9w2iP5NJIU_YZeQa-GpBr-tAONAp6t5NJlStIwNkVSkHhbPygJb66HOJHszKTK4RKASBQQMhLgGiAsnfzVnGtTjw50_OmxtvwqseLm6vVHCZXrJvHXr-kaVOa4g=s0)
+<img src="https://lh3.googleusercontent.com/BY1KfJ-9w2iP5NJIU_YZeQa-GpBr-tAONAp6t5NJlStIwNkVSkHhbPygJb66HOJHszKTK4RKASBQQMhLgGiAsnfzVnGtTjw50_OmxtvwqseLm6vVHCZXrJvHXr-kaVOa4g=s0" width="850">
 
 Kemudian, akan muncul laman seperti ini dan bisa dijawab soal yang ada.
 
-![](https://lh6.googleusercontent.com/VxGSC6flwkSqtHySF7hYh41M9vcI5F2I-ySUuelK8zzJEemW9Feqp8DKNasRPFKzFUyBk1V3-KmcTb1D2RC7JtBWTjggfcw4iV6F7AiyZHOq_ysQwpJjLGQOV0Cq2Qg0_g=s0)
+<img src="https://lh6.googleusercontent.com/VxGSC6flwkSqtHySF7hYh41M9vcI5F2I-ySUuelK8zzJEemW9Feqp8DKNasRPFKzFUyBk1V3-KmcTb1D2RC7JtBWTjggfcw4iV6F7AiyZHOq_ysQwpJjLGQOV0Cq2Qg0_g=s0" width="850">
 
-Jawabannya adalah "**putih-oranye, oranye, putih-hijau, biru, putih-biru, hijau, putih-cokelat, cokelat**".
+Jawabannya adalah '**putih-oranye, oranye, putih-hijau, biru, putih-biru, hijau, putih-cokelat, cokelat**'.
 
 ## Soal 6
 
@@ -107,7 +108,9 @@ Jawabannya adalah "**putih-oranye, oranye, putih-hijau, biru, putih-biru, hijau,
 
 Mengisi *display filter* dengan "**ftp.request.command == USER || ftp.request.command == PASS**".
 
-![](https://lh3.googleusercontent.com/02edDq4m9ktG5-mNdS2rzxO4VkOiVTvV9ZeW0tuYDEpax2uw_68yM829IlrbIZBiN8HbRAgdkSsVGRp_SdKo0P5KUCGixedso2cmPjvBLztpjCt-4jKVbcgJKLg6FFgBicJIhxE3=s0)
+<img src="https://lh3.googleusercontent.com/02edDq4m9ktG5-mNdS2rzxO4VkOiVTvV9ZeW0tuYDEpax2uw_68yM829IlrbIZBiN8HbRAgdkSsVGRp_SdKo0P5KUCGixedso2cmPjvBLztpjCt-4jKVbcgJKLg6FFgBicJIhxE3=s0" width="850">
+
+Akan muncul daftar *username* dan *password* yang *login* ke FTP Server.
 
 ## Soal 7
 
@@ -115,19 +118,19 @@ Mengisi *display filter* dengan "**ftp.request.command == USER || ftp.request.co
 
 Mengisi *display filter* dengan '**ftp-data and frame contains "Real.pdf"**'
 
-![](https://lh4.googleusercontent.com/Fa8fNtZjC_dnxN4bX5EHlbfP0w0Wrf_ZXuTngEOgCUIrHXgRG-fP_s85srcIENJIwpSD8OMibS57UEBjQs9CieFY8iGJYwu6kvMREjQvl9Kqv-3g3gE6FgXD9d020NqsbbAi9RQL=s0)
+<img src="https://lh4.googleusercontent.com/Fa8fNtZjC_dnxN4bX5EHlbfP0w0Wrf_ZXuTngEOgCUIrHXgRG-fP_s85srcIENJIwpSD8OMibS57UEBjQs9CieFY8iGJYwu6kvMREjQvl9Kqv-3g3gE6FgXD9d020NqsbbAi9RQL=s0" width="850">
 
 Follow TCP Stream dan ubah data dari **ASCII** menjadi **RAW**.
 
-![](https://lh3.googleusercontent.com/_r5bTwUBQn-ai_RX9su6xTmDBlgN21tLl883_mEycXBmb0MuljsyLrkMVVReNUpGA749ospW5NSGk6ioeV9KzdMOEpo8yimDZJSLxoZEaD4-qkkYJonJsQbr6DXGzJDzeBkBylKt=s0)
+<img src="https://lh3.googleusercontent.com/_r5bTwUBQn-ai_RX9su6xTmDBlgN21tLl883_mEycXBmb0MuljsyLrkMVVReNUpGA749ospW5NSGk6ioeV9KzdMOEpo8yimDZJSLxoZEaD4-qkkYJonJsQbr6DXGzJDzeBkBylKt=s0" width="850">
 
 Simpan data sebagai **.zip**.
 
-![](https://lh3.googleusercontent.com/8K-IIPKC8NIKABkr8dJwckttxpsmOrHMbiuveqToSZ7vpxbGsg86F9qDXHop-6gvKWY3Lct1-SL1cZO9_kJHpz_Y8FOFwdcGZniSW-eAZMUe4kqu676ZxjN99j4eOiz3sJ52x8AO=s0)
+<img src="https://lh3.googleusercontent.com/8K-IIPKC8NIKABkr8dJwckttxpsmOrHMbiuveqToSZ7vpxbGsg86F9qDXHop-6gvKWY3Lct1-SL1cZO9_kJHpz_Y8FOFwdcGZniSW-eAZMUe4kqu676ZxjN99j4eOiz3sJ52x8AO=s0" width="850">
 
 Ekstrak **.zip** tadi dan buka '**Real.pdf**'.
 
-![](https://lh3.googleusercontent.com/FvxwTK6Xftiq20Ymj3kEpQydaUNnDaKnqAQSYODbDwW9GSnzy2CN_sA3qeey_tQhn6Xf8yxBsF-22YBe0r2eoSdzlu4bbuUrB5pzXWh85pRd16iZrVM_WeObPxGCG0GHpWsg2rJD=s0)
+<img src="https://lh3.googleusercontent.com/FvxwTK6Xftiq20Ymj3kEpQydaUNnDaKnqAQSYODbDwW9GSnzy2CN_sA3qeey_tQhn6Xf8yxBsF-22YBe0r2eoSdzlu4bbuUrB5pzXWh85pRd16iZrVM_WeObPxGCG0GHpWsg2rJD=s0" width="850">
 
 Hasilnya akan muncul seperti ini.
 
@@ -137,7 +140,7 @@ Hasilnya akan muncul seperti ini.
 
 Mengisi *display filter* dengan '**ftp-data.command == RETR**'.
 
-![](https://lh4.googleusercontent.com/Hkrj3uKhrvRjycbnDD2qzP7tNtkzkz6w_vhvPiVUY3Vz-ZwRLKXxDmnMjq6wJje_wNPoOitxSlLWWpFZjta62FW1rwgq83PHYr7UCQzD4dCB-K0OEGe1GxvRZME8eQCQpcXJK9Dv=s0)
+<img src="https://lh4.googleusercontent.com/Hkrj3uKhrvRjycbnDD2qzP7tNtkzkz6w_vhvPiVUY3Vz-ZwRLKXxDmnMjq6wJje_wNPoOitxSlLWWpFZjta62FW1rwgq83PHYr7UCQzD4dCB-K0OEGe1GxvRZME8eQCQpcXJK9Dv=s0" width="850">
 
 Seharusnya muncul daftar paket untuk pengambilan file dari FTP. Tapi di sini karena tidak ada, maka tidak muncul.
 
@@ -147,17 +150,17 @@ Seharusnya muncul daftar paket untuk pengambilan file dari FTP. Tapi di sini kar
 
 Mengisi *display filter* dengan '**ftp-data and ftp.data.command contains "secret.zip"**'.
 
-![](https://lh4.googleusercontent.com/jfo-7woJz6asoahOn9YJ2IV-jQjJy-HmkwwE1jKOQ3CCiswwCr-dGoNeM1vkT5-SjQyi_hFf6LDM6GVvv-O1KWmUPd6LorL6aD1TrVc23nwE7L2GRHqHogMDD7EpP4Ep6IK6tXXb=s0)
+<img src="https://lh4.googleusercontent.com/jfo-7woJz6asoahOn9YJ2IV-jQjJy-HmkwwE1jKOQ3CCiswwCr-dGoNeM1vkT5-SjQyi_hFf6LDM6GVvv-O1KWmUPd6LorL6aD1TrVc23nwE7L2GRHqHogMDD7EpP4Ep6IK6tXXb=s0" width="850">
 
 Follow TCP Stream dan ubah data dari **ASCII** menjadi **RAW**.
 
-![](https://lh4.googleusercontent.com/-nVAggqadiwQBUPUbK6b8Xp5fP3T3Wr8EEq3exTcA6-PN5lUKOjHO1OULnRpeSz5ycvZiHF9hRtIaskthEzE6pJC3NEg3nZs7oTQEDgofkTm8E1nnr6hj2UvzbG0DDsAq4TDdq-X=s0)
+<img src="https://lh4.googleusercontent.com/-nVAggqadiwQBUPUbK6b8Xp5fP3T3Wr8EEq3exTcA6-PN5lUKOjHO1OULnRpeSz5ycvZiHF9hRtIaskthEzE6pJC3NEg3nZs7oTQEDgofkTm8E1nnr6hj2UvzbG0DDsAq4TDdq-X=s0" width="850">
 
 Simpan data sebagai **.zip**. Setelah di-*zip* kita tidak akan bisa mengekstraknya karena terdapat *password*. *Password zip* ini ada di **nomor 10**.
 
 Beginilah isi **.pdf** jika sudah mendapatkan *password zip*.
 
-![](https://lh6.googleusercontent.com/QqaftC_QgofPySfesPkj0f4l_HkxvH_59hi1W74elyu-E_RALY5xPrwkz4umMsWqKi3MJuGxiC8jE_DM3EpzVi8p7aNnWMMpPVdbmxjHOa5yVcb4IyVNuf9seX_elUfXUCmyKkO_=s0)
+<img src="https://lh6.googleusercontent.com/QqaftC_QgofPySfesPkj0f4l_HkxvH_59hi1W74elyu-E_RALY5xPrwkz4umMsWqKi3MJuGxiC8jE_DM3EpzVi8p7aNnWMMpPVdbmxjHOa5yVcb4IyVNuf9seX_elUfXUCmyKkO_=s0" width="850">
 
 ## Soal 10
 
@@ -165,72 +168,72 @@ Beginilah isi **.pdf** jika sudah mendapatkan *password zip*.
 
 Mengisi *display filter* dengan '**ftp.data.command contains "history.txt"**'.
 
-![](https://lh3.googleusercontent.com/gkEST3pgsVJwmP1qevhnmCP9VNDjOzjfrMfant13rXrVr8AoclBwf-f3-7hui6QEThJ3AYnuA5XORNG15fZ4oLE4hjDTZfGd1dmSZXKbGW-1yNw9ow-yprVOmHH7uHyuVpoeQlSP=s0)
+<img src="https://lh3.googleusercontent.com/gkEST3pgsVJwmP1qevhnmCP9VNDjOzjfrMfant13rXrVr8AoclBwf-f3-7hui6QEThJ3AYnuA5XORNG15fZ4oLE4hjDTZfGd1dmSZXKbGW-1yNw9ow-yprVOmHH7uHyuVpoeQlSP=s0" width="850">
 
 Follow TCP Stream. Kemudian akan muncul seperti ini. Dari sini kita bisa lihat bahwa *password* ada di **bukanapaapa.txt**.
 
-![](https://lh6.googleusercontent.com/z_ZfeWbfNrsr8ZnCeNlWJAGf0_19zrOFA_MoTjMkN6oSRTdjadfuRDPrenTk3h6S5cevx_ODVnJZd3i1at-bEQ3-KUHaH2awSSmW76qf2LWBVlFzaw0DC3M7ENTH82VW3rV64M9I=s0)
+<img src="https://lh6.googleusercontent.com/z_ZfeWbfNrsr8ZnCeNlWJAGf0_19zrOFA_MoTjMkN6oSRTdjadfuRDPrenTk3h6S5cevx_ODVnJZd3i1at-bEQ3-KUHaH2awSSmW76qf2LWBVlFzaw0DC3M7ENTH82VW3rV64M9I=s0" width="850">
 
 Mengisi display filter lagi dengan '**ftp.data.command contains "bukanapapa.txt"**'.
 
-![](https://lh3.googleusercontent.com/mby2n-lTKePIw_H2UwAH87wJautayHMZxql3SmlsNUvgqf0KKNiiLaQGZlDGxRirZ0olaOk8mquT1WLMQrrMMBAtha7bHjDTXzCZ0VbVADtM4DA9Dib0ngzaujVvfo7EF3iM0MRF=s0)
+<img src="https://lh3.googleusercontent.com/mby2n-lTKePIw_H2UwAH87wJautayHMZxql3SmlsNUvgqf0KKNiiLaQGZlDGxRirZ0olaOk8mquT1WLMQrrMMBAtha7bHjDTXzCZ0VbVADtM4DA9Dib0ngzaujVvfo7EF3iM0MRF=s0" width="850">
 
 Follow TCP Stream. Kemudian akan muncul seperti ini. Dari sini kita bisa lihat bahwa *password* adalah **dibilangbukanapaapajugagapercaya**. *Password* ini digunakan untuk membuka *zip* **nomor 9**.
 
-![](https://lh4.googleusercontent.com/X_EYuClcvyFeiIWFIt5nVRZpb88FPOH4fr9-W7FpAtDC4NO8_Kuorj12wm2pdDsq6nkHRjivgCFkPyS1RvLoOYp3pJtc0OAaMftR6b_RGasVCiP_VlxUW0MHZmuAPlDeyXDTKynu=s0)
+<img src="https://lh4.googleusercontent.com/X_EYuClcvyFeiIWFIt5nVRZpb88FPOH4fr9-W7FpAtDC4NO8_Kuorj12wm2pdDsq6nkHRjivgCFkPyS1RvLoOYp3pJtc0OAaMftR6b_RGasVCiP_VlxUW0MHZmuAPlDeyXDTKynu=s0" width="850">
 
 ## Soal 11
 
 ### Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
-Mengisi capture filter dengan ‘src port 80’
+Mengisi *capture filter* dengan ‘src port 80’
 
-![](https://lh5.googleusercontent.com/hUOrSzoUN9blEmv2pfzeUwjaPyzfZZPVs6zJA6W-aMCZXklpL7IbfEujE3LEfis_UWUog9yMlTfjYV3usPVhmdW48iuqABtjvQWndoulY16fjTeVLS-Y5D1GWKjYvNNLAKYD33PG=s0)
+<img src="https://lh5.googleusercontent.com/hUOrSzoUN9blEmv2pfzeUwjaPyzfZZPVs6zJA6W-aMCZXklpL7IbfEujE3LEfis_UWUog9yMlTfjYV3usPVhmdW48iuqABtjvQWndoulY16fjTeVLS-Y5D1GWKjYvNNLAKYD33PG=s0" width="850">
 
-Hasil ketika mengambil paket dari port 80
+Hasil ketika mengambil paket dari **port 80**.
 
-![](https://lh3.googleusercontent.com/vaEO3aXkNU6SET8YBNRM2vvlIpJhu-wpj4sO9x6hKn_ZzZyKM7Ird-gnH8xm_Lni__S4XsawyJLJ7LGxuvnytFEyHaYT3DXDhJyZqsAl932mwccqelQRsUCmmWEdVwGiY892nrOR=s0)
+<img src="https://lh3.googleusercontent.com/vaEO3aXkNU6SET8YBNRM2vvlIpJhu-wpj4sO9x6hKn_ZzZyKM7Ird-gnH8xm_Lni__S4XsawyJLJ7LGxuvnytFEyHaYT3DXDhJyZqsAl932mwccqelQRsUCmmWEdVwGiY892nrOR=s0" width="850">
 
 ## Soal 12
 
 ### Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
-Mengisi capture filter dengan ‘port 21'
+Mengisi *capture filter* dengan '**port 21**'.
 
-![](https://lh3.googleusercontent.com/_B3NMd98Xb0q0EyYNzPJgsLBgUYR2nOSTkAFVJKAHmVjFkKDTGq29q4zVIgnafoye20KZocgFzlD98RKnn9WDA8Y4UKNzuW37lzw2xIHPkkynNFSqpKtD6nUpUVxUJZtsM4N-jaA=s0)
+<img src="https://lh3.googleusercontent.com/_B3NMd98Xb0q0EyYNzPJgsLBgUYR2nOSTkAFVJKAHmVjFkKDTGq29q4zVIgnafoye20KZocgFzlD98RKnn9WDA8Y4UKNzuW37lzw2xIHPkkynNFSqpKtD6nUpUVxUJZtsM4N-jaA=s0" width="850">
 
-Hasil ketika paket mengandung port 21. Di sini tidak ada yang dimunculkan
+Hasil ketika mencari paket mengandung **port 21**. Di sini tidak ada yang dimunculkan.
 
-![](https://lh4.googleusercontent.com/kXfuiuxiPIjUb-dCI7GLL7hCpg3yAqjvNTiNoNpNr9k5ud04E-6gIzu7eF1yMvTdWC3TJk5f-6mKqBdoaxJdJ-RItsqGndI_GePqZ4vqIbDsKFRqHvrKbIzyaOPxNE4a-jVpAMtM=s0)
+<img src="https://lh4.googleusercontent.com/kXfuiuxiPIjUb-dCI7GLL7hCpg3yAqjvNTiNoNpNr9k5ud04E-6gIzu7eF1yMvTdWC3TJk5f-6mKqBdoaxJdJ-RItsqGndI_GePqZ4vqIbDsKFRqHvrKbIzyaOPxNE4a-jVpAMtM=s0" width="850">
 
 ## Soal 13
 
 ### Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
-Mengisi capture filter dengan ‘dst port 443’
+Mengisi *capture filter* dengan '**dst port 443**'.
 
-![](https://lh5.googleusercontent.com/FN2ajb6ZiP1LU3gW3_9ulJ5COR8LHq825CDqwd8REXk5znIsbGXbMFn_36KA7J90J3K27cC5V3U-B2luxkFCkTmmEdcZx6ImBSUvuJATg_CPRiYYnMYU_B6_pGf2VhI2fpAjLkmO=s0)
+<img src="https://lh5.googleusercontent.com/FN2ajb6ZiP1LU3gW3_9ulJ5COR8LHq825CDqwd8REXk5znIsbGXbMFn_36KA7J90J3K27cC5V3U-B2luxkFCkTmmEdcZx6ImBSUvuJATg_CPRiYYnMYU_B6_pGf2VhI2fpAjLkmO=s0" width="850">
 
-Hasil ketika menampilkan paket menuju port 443
+Hasil ketika menampilkan paket menuju **port 443**.
 
-![](https://lh3.googleusercontent.com/i4wjZgzO1cbuZMS6_pvCVohkV7UmoLpMtJ-FFjdHkYdM1MQHJ1AXyeuEHhQ96cn9lTjT0X1GdomJsSupzytgh5ks0sgF2Q2N1pjrIJt9e9R_U1SOXg0gCXVYLLhrPaP40d60afTb=s0)
+<img src="https://lh3.googleusercontent.com/i4wjZgzO1cbuZMS6_pvCVohkV7UmoLpMtJ-FFjdHkYdM1MQHJ1AXyeuEHhQ96cn9lTjT0X1GdomJsSupzytgh5ks0sgF2Q2N1pjrIJt9e9R_U1SOXg0gCXVYLLhrPaP40d60afTb=s0" width="850">
 
 ## Soal 14
 
 ### Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
-Mengisi capture filter dengan "**host kemenag.go.id**"
+Mengisi *capture filter* dengan "**host kemenag.go.id**"
 
-![](https://lh6.googleusercontent.com/lSGu79rxmJmCkh2ZDi9zaZm2lljEb6DVzwrvX8ei-Qpfs_TAPsGOR9iZgK4dbQ88m8SZi5-ziJ6bLHqieAjCBq98Wc4YcWKOr0ldMux9yFAxXbRFja6Vp66t88liySsTaxP8hCrF=s0)
+<img src="https://lh6.googleusercontent.com/lSGu79rxmJmCkh2ZDi9zaZm2lljEb6DVzwrvX8ei-Qpfs_TAPsGOR9iZgK4dbQ88m8SZi5-ziJ6bLHqieAjCBq98Wc4YcWKOr0ldMux9yFAxXbRFja6Vp66t88liySsTaxP8hCrF=s0" width="850">
     
-Hasil ketika menampilkan paket yang tujuannya kemenag.go.id
+Hasil ketika menampilkan paket yang tujuannya **kemenag.go.id**.
 
-![](https://lh4.googleusercontent.com/nmEjUtEZCmitx3SoDCuG98CzjQ3xLGySIfwLXcNk1yJ6aFBEfS_yRO05BfkhENMPu6kx8ePZylpENOLhAsicQU_OqvEb2mtpPfVVhQqwEX8l3aTmYJ8ypppCI0dA7Fh7HUUboih-=s0)
+<img src="https://lh4.googleusercontent.com/nmEjUtEZCmitx3SoDCuG98CzjQ3xLGySIfwLXcNk1yJ6aFBEfS_yRO05BfkhENMPu6kx8ePZylpENOLhAsicQU_OqvEb2mtpPfVVhQqwEX8l3aTmYJ8ypppCI0dA7Fh7HUUboih-=s0" width="850">
 
 ## Soal 15
 
 ### Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
-Mengisi display filter dengan "**ip.src == [ip masing-masing]**"
+Cari IP Address masing-masing lewat *command prompt*. Kemudian, mengisi *display filter* dengan '**ip.src == [ip masing-masing]**'.
 
-![](https://lh4.googleusercontent.com/44Ifx3KwaoGBaYBstA8YGHlFp2-txT3oVzqep9FoaIlTDejCU1LFgJistk4TVWW6YYnx_7X4-DJmhWUGvabPh04YHBUR_Y0BxfNz5BUfHHUxtMqMji6NI9jWp1CezvLDfssaz54y=s0)
+<img src="https://lh4.googleusercontent.com/44Ifx3KwaoGBaYBstA8YGHlFp2-txT3oVzqep9FoaIlTDejCU1LFgJistk4TVWW6YYnx_7X4-DJmhWUGvabPh04YHBUR_Y0BxfNz5BUfHHUxtMqMji6NI9jWp1CezvLDfssaz54y=s0" width="850">
