@@ -82,9 +82,9 @@ Jawab soal yang ada di laman tersebut. Jawabannya adalah '**putih-hijau, hijau, 
 
 ### Jawaban:
 
-Mengisi *display filter* dengan ``mysql.query contains select``.
+Mengisi *display filter* dengan ``mysql.query contains select || mysql.query contains SELECT``.
 
-<img src="https://lh6.googleusercontent.com/mJ9cXK042mHRbkCYc97W21GWx9kgq_M8dELRoX_-azvLJGk8jimax_LE0agsSRe1jgPXn_mGtZgIE3WhfNnRajikAgdnOX5ttX9MUsZYBM-GaC4dHRkFcC8p8CKOCN3oAg=s0" width="850">
+<img src="https://lh5.googleusercontent.com/dLSkKIt8RV3TnygL8bUFQ1BRDOnhhtdTObdIncyie0tGVzoNb0vkN1NKdwrwc859UaUWTrBi8kVnwofahiyoORmWhgVCh5U9HtJ7BhLn0xrFrbHptEWxpfyBVABy-Yo60am4v0sJ=s0" width="850">
 
 Akan muncul paket yang mengandung perintah *query* **select**.
 
