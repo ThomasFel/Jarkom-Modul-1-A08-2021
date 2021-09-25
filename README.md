@@ -194,7 +194,7 @@ Follow TCP Stream. Kemudian akan muncul seperti ini. Dari sini kita bisa lihat b
 
 <img src="https://lh6.googleusercontent.com/z_ZfeWbfNrsr8ZnCeNlWJAGf0_19zrOFA_MoTjMkN6oSRTdjadfuRDPrenTk3h6S5cevx_ODVnJZd3i1at-bEQ3-KUHaH2awSSmW76qf2LWBVlFzaw0DC3M7ENTH82VW3rV64M9I=s0" width="850">
 
-Mengisi *display filter* lagi dengan ``ftp.data.command contains "bukanapapa.txt"``.
+Mengisi *display filter* lagi dengan ``ftp-data.command contains "bukanapapa.txt"``.
 
 <img src="https://lh3.googleusercontent.com/mby2n-lTKePIw_H2UwAH87wJautayHMZxql3SmlsNUvgqf0KKNiiLaQGZlDGxRirZ0olaOk8mquT1WLMQrrMMBAtha7bHjDTXzCZ0VbVADtM4DA9Dib0ngzaujVvfo7EF3iM0MRF=s0" width="850">
 
